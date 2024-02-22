@@ -1,3 +1,14 @@
+/**
+ * @file system.c
+ * @author Caulier Rémi (remi@remicaulier.fr)
+ * @brief System functions implementation
+ * @version 0.1
+ * @date 2024-02-22
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <float.h>

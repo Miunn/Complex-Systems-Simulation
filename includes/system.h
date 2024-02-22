@@ -1,3 +1,14 @@
+/**
+ * @file system.h
+ * @author Caulier Rémi (remi@remicaulier.fr)
+ * @brief System functions definition with statistics accumulators
+ * @version 0.1
+ * @date 2024-02-22
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
+
 #ifndef SYSTEM_H
 #define SYSTEM_H
 

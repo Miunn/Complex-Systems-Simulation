@@ -1,3 +1,15 @@
+/**
+ * @file main.c
+ * @author Caulier Rémi (remi@remicaulier.fr)
+ * @brief Main file to run simulation
+ * @version 0.1
+ * @date 2024-02-22
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "../includes/system.h"

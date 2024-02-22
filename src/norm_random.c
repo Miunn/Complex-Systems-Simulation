@@ -1,3 +1,14 @@
+/**
+ * @file norm_random.c
+ * @author Caulier Rémi (remi@remicaulier.fr)
+ * @brief Random normal distribution implementation
+ * @version 0.1
+ * @date 2024-02-22
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
+
 #include <stdlib.h>
 #include <math.h>
 
