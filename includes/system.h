@@ -39,6 +39,7 @@ typedef struct SYSTEM
 } SYSTEM;
 
 SYSTEM* init_new_system();
+SYSTEM* init_new_system_max(int t_max);
 void run_simulation(SYSTEM* system);
 int generate_service_time();
 int generate_inter_time();

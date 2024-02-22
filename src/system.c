@@ -22,14 +22,34 @@ SYSTEM* init_new_system()
     system->t = 0;
     system->t_max = 20;
     system->t_arr = 0;
-    system->t_att_cum =0;
+    system->t_att_cum = 0;
+    system->t_cum = 0;
     system->t_occ = 0;
     system->delta = 0;
     system->t_dep = DBL_MAX;
     system->long_file = 0;
 
+    system->state = 0;
+
     system->nb_arr = 0;
     system->nb_servis = 0;
+
+    system->t_moy_sej = 0;
+    system->n_moy_sej = 0;
+    system->t_moy_att = 0;
+    system->taux_att_obs = 0;
+    system->taux_occ = 0;
+    system->productivity = 0;
+    system->mu_obs = 0;
+
+    return system;
+}
+
+SYSTEM* init_new_system_max(int t_max)
+{
+    SYSTEM* system = init_new_system();
+
+    system->t_max = t_max;
 
     return system;
 }

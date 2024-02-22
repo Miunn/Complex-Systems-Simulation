@@ -16,7 +16,8 @@
 
 int main(int argc, char* argv[])
 {
-    SYSTEM* system = init_new_system();
+    srand(time(NULL));
+    SYSTEM* system = init_new_system_max(20);
 
     run_simulation(system);
 
