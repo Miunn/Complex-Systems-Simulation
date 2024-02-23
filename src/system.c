@@ -77,8 +77,6 @@ void run_simulation(SYSTEM* system)
             {
                 system->long_file++;
             }
-
-            system->t_arr = system->t + generate_arrival_time();
         }
         else
         {
